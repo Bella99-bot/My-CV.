@@ -1,0 +1,56 @@
+body
+{
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbw-oMID0cRBWYKAVf2wAJM71nbKiGgFCrS34_QSY5DaxTvFBcNsIyz92N5jR4n34EGXA&usqp=CAU"); */
+    background-color: #222629;
+}
+hr
+{ width: 5%;  height: 3px;  text-align: center; border-style: none;  border-top: dotted  #92967d 8px;
+    background-color: #222629;
+}
+h1{
+  color: white;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h3{
+  color: white;
+}
+p{
+  animation-duration: 3s;
+  animation-name: slidein;
+  color: #cfdac8;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+table{
+  color: #cfdac8;
+}
+ul{
+  color: #cfdac8;
+}
+em{
+  color: #caf7e3;
+}
+a{
+  color: white;
+}
